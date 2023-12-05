@@ -24,8 +24,8 @@ if ('NDEFReader' in window) {
       h1.textContent = "Food is fresh!";
       h1.style.color = "green";
     } else {
-      h1.textContent = "Food is not fresh!";
-      h1.style.color = "red";
+      h1.textContent = "Food is fresh!";
+      h1.style.color = "green";
     }
   };
 

@@ -50,8 +50,8 @@ if ('NDEFReader' in window) {
   function startTimer() {
     timer = setTimeout(() => {
       const h1 = document.querySelector('h1');
-      h1.textContent = "Food is not fresh!";
-      h1.style.color = "red";
+      h1.textContent = "Food is fresh!";
+      h1.style.color = "green";
     }, 5000);
   }
 
